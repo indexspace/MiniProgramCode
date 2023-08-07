@@ -1,0 +1,15 @@
+/**index.wxss**/
+.space {
+	width: 500rpx;
+	height: 50rpx;
+	margin: 30rpx;
+}
+
+.text {
+	width: 500rpx;
+	height: 50rpx;
+	margin: 30rpx;
+	
+	background-color: #ccc;
+}
+

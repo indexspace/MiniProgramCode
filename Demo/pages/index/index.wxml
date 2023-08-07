@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+	<view class="text">
+		<text>{{textVal}}</text>
+	</view>
+	<view class="text">
+		<input bind:input="saveTextVal" placeholder="please input text"/>
+	</view>
+	<view class="space">
+		<button type="primary" size="mini" bind:tap="updateTectVal"> update </button>
+	</view>
+</view>
+

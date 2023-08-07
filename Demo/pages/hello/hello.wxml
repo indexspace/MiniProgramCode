@@ -1,0 +1,6 @@
+<!--pages/hello/hello.wxml-->
+<view class="container">
+	<view>
+		<text>这里什么都没有</text>
+	</view>
+</view>

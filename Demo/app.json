@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/hello/hello"
+  ],
+  "tabBar": {
+	  "position": "bottom",
+	  "color": "#000000",
+	  "selectedColor": "#00aa00",
+	  "list": [{
+		  "pagePath": "pages/index/index",
+		  "text": "demo1",
+		  "iconPath": "/imges/demo1-icon.jpg",
+		  "selectedIconPath": "/imges/demo1_selected_icon.png"
+	  },{
+		"pagePath": "pages/hello/hello",
+		"text": "demo2",
+		"iconPath": "/imges/demo2_icon.png",
+		"selectedIconPath": "/imges/demo2_selected_icon.png"
+	  }]
+  },
+  "window": {
+	"navigationStyle": "default",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "你好",
+	"navigationBarTextStyle": "black",
+	"backgroundColor": "#000"
+  },
+  "style": "v2",
+  "renderer": "skyline",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
