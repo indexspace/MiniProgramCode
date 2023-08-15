@@ -1,6 +1,5 @@
 {
   "description": "项目配置文件",
-  "appid": "wx46446f5e7de6a224",
   "compileType": "miniprogram",
   "setting": {
     "babelSetting": {
@@ -13,7 +12,13 @@
     "minified": false,
     "enhance": false,
     "showShadowRootInWxmlPanel": false,
-    "packNpmRelationList": [],
+    "packNpmManually": true,
+    "packNpmRelationList": [
+      {
+        "packageJsonPath": "./package.json",
+        "miniprogramNpmDistDir": "./"
+      }
+    ],
     "ignoreUploadUnusedFiles": true,
     "compileHotReLoad": false,
     "skylineRenderEnable": true
@@ -23,6 +28,7 @@
     "tabIndent": "auto",
     "tabSize": 2
   },
+  "appid": "wx46446f5e7de6a224",
   "packOptions": {
     "ignore": [],
     "include": []

@@ -1,0 +1,11 @@
+/* pages/event/event.wxss */
+.box {
+	/* background-color: aqua; */
+	height: 100rpx;
+	width: 200rpx;
+	padding: 25rpx;
+	margin: 25rpx;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}

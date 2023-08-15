@@ -5,5 +5,18 @@
     "compileHotReLoad": true,
     "skylineRenderEnable": true
   },
-  "libVersion": "2.32.3"
+  "libVersion": "2.32.3",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "",
+          "pathName": "pages/event/event",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  }
 }

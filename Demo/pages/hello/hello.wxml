@@ -1,6 +1,10 @@
 <!--pages/hello/hello.wxml-->
-<view class="container">
-	<view>
-		<text>这里什么都没有</text>
-	</view>
+<view class="text">
+	<view>{{info}}</view>
+</view>
+<view class="text">
+	<text>嘿嘿嘿, 连导航栏和手机的状态栏显示出来了, 下拉刷新功能实现了, 还是新版的教材好用, 比心, {{herName}}</text>
+</view>
+<view>
+	<button type="primary" bind:tap="mySwitch"> 转到前一个页面 </button>
 </view>

@@ -1,13 +1,25 @@
 <!--index.wxml-->
-<view class="container">
-	<view class="text">
-		<text>{{textVal}}</text>
-	</view>
-	<view class="text">
-		<input bind:input="saveTextVal" placeholder="please input text"/>
-	</view>
-	<view class="space">
-		<button type="primary" size="mini" bind:tap="updateTectVal"> update </button>
-	</view>
+
+<view class="space">
+	<swiper>
+		<swiper-item>
+			
+		</swiper-item>
+	</swiper>
 </view>
+
+<view class="text">
+	<text>{{textVal}}</text>
+</view>
+<view class="text">
+	<text>你的名字叫</text>
+	<input bind:input="saveTextVal" placeholder="在这输入你的名字"/>
+</view>
+<view class="space">
+	<button type="primary" size="mini" bind:tap="updateTectVal"> 输完上面的文字再点我 </button>
+</view>
+<view class="text">
+	<navigator url="/pages/hello/hello" open-type="switchTab"> 点我转到后一个页面 </navigator>
+</view>
+
 

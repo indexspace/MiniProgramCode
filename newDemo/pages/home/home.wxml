@@ -1,0 +1,42 @@
+<!--pages/home/home.wxml-->
+
+<!-- 1 -->
+<van-collapse value="{{ activeNames }}"   bind:change="onChange" size="large">
+  	<van-collapse-item name="1">
+		<view slot="title" class="title">cat</view>
+    	<view class="text">喵~</view>
+  	</van-collapse-item>
+</van-collapse>
+
+<swiper previous-margin="30rpx" autoplay 	indicator-dots 	circular>
+	<swiper-item circular>
+		<image src="../../images/cat01.jpg" mode="aspectFill"></image>
+	</swiper-item>
+	<swiper-item>
+		<image src="../../images/cat02.jpg" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 2 -->
+<van-collapse value="{{ activeNames }}"   bind:change="onChange" size="large">
+  	<van-collapse-item name="2">
+		<view slot="title" class="title">dog</view>
+    	<view class="text">可爱的狗狗</view>
+  	</van-collapse-item>
+</van-collapse>
+
+<swiper previous-margin="30rpx" autoplay 	indicator-dots 	circular>
+	<swiper-item circular>
+		<image src="../../images/dog01.jpg" mode="aspectFill"></image>
+	</swiper-item>
+	<swiper-item>
+		<image src="../../images/dog02.jpg" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="../../images/dog03.jpg" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="../../images/dog04.jpg" mode="top"/>
+	</swiper-item>
+</swiper>
+

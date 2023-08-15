@@ -1,0 +1,9 @@
+<!--pages/event/event.wxml-->
+<text>pages/event/event.wxml</text>
+<view class="box" bind:tap="onClick" style="background:{{color}};width: {{size}}rpx;">
+	随机数: {{num}}
+</view>
+<van-button type="primary">按钮</van-button>
+
+
+

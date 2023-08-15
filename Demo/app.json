@@ -1,7 +1,9 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/hello/hello"
+	"pages/index/index",
+	"pages/hello/hello",
+	"pages/event/event"
+    
   ],
   "tabBar": {
 	  "position": "bottom",
@@ -20,15 +22,14 @@
 	  }]
   },
   "window": {
-	"navigationStyle": "default",
-    "backgroundTextStyle": "dark",
-    "navigationBarBackgroundColor": "#000",
-    "navigationBarTitleText": "你好",
+	"navigationBarTitleText": "你好",
+    "navigationBarBackgroundColor": "#eee",
 	"navigationBarTextStyle": "black",
-	"backgroundColor": "#000"
+	"backgroundColor": "#fff",
+    "backgroundTextStyle": "dark",
+	"enablePullDownRefresh": true
   },
-  "style": "v2",
-  "renderer": "skyline",
+  "renderer": "webview",
   "rendererOptions": {
     "skyline": {
       "defaultDisplayBlock": true,

@@ -7,3 +7,17 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+.space {
+	width: 500rpx;
+	height: 60rpx;
+	margin: 30rpx;
+}
+
+.text {
+	width: 500rpx;
+	height: auto;
+	margin: 30rpx;
+	
+	background-color: #ccc;
+}
