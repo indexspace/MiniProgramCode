@@ -1,0 +1,72 @@
+<!--pages/acquaintance/acquaintance.wxml-->
+
+<!-- 1 -->
+<view class="description">
+	<text selectable>
+		你之前买的原神联动 不过你的评价不是很好
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay  circular>
+	<swiper-item circular>
+		<image src="{{acquaintance01}}" mode="aspectFill"></image>
+	</swiper-item>
+</swiper>
+
+<!-- 2 -->
+<view class="description">
+	<text selectable> 	
+		你买的电脑支架断掉了  后来我的电脑支架也是你买的
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay  circular>
+	<swiper-item circular>
+		<image src="{{acquaintance02}}" mode="aspectFill"></image>
+	</swiper-item>
+</swiper>
+
+<!-- 3 -->
+<view class="description">
+	<text selectable> 	
+		师大居然有电视台来拍中秋晚会，羡慕
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay  circular>
+	<swiper-item circular>
+		<image src="{{acquaintance03}}" mode="aspectFill"></image>
+	</swiper-item>
+</swiper>
+
+<!-- 4 -->
+<view class="description">
+	<text selectable> 	
+		你家亲戚的纯正蜂蜜我什么时候有机会尝尝呀
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay  circular>
+	<swiper-item circular>
+		<image src="{{acquaintance04}}" mode="aspectFill"></image>
+	</swiper-item>
+</swiper>
+
+<!-- 5 -->
+<view class="description">
+	<text selectable> 	
+		刚认识的时候，网上的你就展现出来了你的美丽与苗条
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay circular 	indicator-dots>
+	<swiper-item circular>
+		<image src="{{acquaintance05}}" mode="aspectFill"></image>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{acquaintance06}}" mode="aspectFill"></image>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{acquaintance07}}" mode="aspectFill"></image>
+	</swiper-item>
+</swiper>

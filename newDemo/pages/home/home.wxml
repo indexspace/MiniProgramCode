@@ -1,42 +1,98 @@
 <!--pages/home/home.wxml-->
 
-<!-- 1 -->
+<!-- 0 -->
+<!-- 
 <van-collapse value="{{ activeNames }}"   bind:change="onChange" size="large">
-  	<van-collapse-item name="1">
-		<view slot="title" class="title">cat</view>
-    	<view class="text">喵~</view>
+  	<van-collapse-item name="  /num/  ">
+		<view slot="title" class="title">  /title/  </view>
+    	<view class="text">  /text/  </view>
   	</van-collapse-item>
 </van-collapse>
 
-<swiper previous-margin="30rpx" autoplay 	indicator-dots 	circular>
+<view class="description">
+	<text selectable>
+		/text/
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
 	<swiper-item circular>
-		<image src="../../images/cat01.jpg" mode="aspectFill"></image>
+		<image src="  /imgUrl/  " mode="aspectFill"/>
 	</swiper-item>
 	<swiper-item>
-		<image src="../../images/cat02.jpg" mode="aspectFill"/>
+		<image src="  /imgUrl/  " mode="aspectFill"/>
 	</swiper-item>
 </swiper>
+-->
 
-<!-- 2 -->
-<van-collapse value="{{ activeNames }}"   bind:change="onChange" size="large">
-  	<van-collapse-item name="2">
-		<view slot="title" class="title">dog</view>
-    	<view class="text">可爱的狗狗</view>
-  	</van-collapse-item>
-</van-collapse>
+<view class="button">
+	<van-button type="info" size="large" plain bind:tap="toScenery">
+		风景
+	</van-button>
+</view>
 
-<swiper previous-margin="30rpx" autoplay 	indicator-dots 	circular>
-	<swiper-item circular>
-		<image src="../../images/dog01.jpg" mode="aspectFill"></image>
-	</swiper-item>
-	<swiper-item>
-		<image src="../../images/dog02.jpg" mode="aspectFill"/>
-	</swiper-item>
-	<swiper-item>
-		<image src="../../images/dog03.jpg" mode="aspectFill"/>
-	</swiper-item>
-	<swiper-item>
-		<image src="../../images/dog04.jpg" mode="top"/>
-	</swiper-item>
-</swiper>
+<view class="button">
+	<van-button type="info" size="large" plain bind:tap="toAcquaintance">
+		我们相识的那段时光
+	</van-button>
+</view>
 
+<view class="button">
+	<van-button type="info" size="large" plain bind:tap="toHerFriend">
+		我们见面前你与你的好友会面
+	</van-button>
+</view>
+
+<view class="button">
+	<van-button type="info" size="large" plain bind:tap="toFristMeet">
+		我们的第一次见面
+	</van-button>
+</view>
+
+<view class="button">
+	<van-button type="info" size="large" plain bind:tap="toSecondMeet">
+		大学城闲逛
+	</van-button>
+</view>
+
+<view class="button">
+	<van-button type="info" size="large" plain bind:tap="toFlower">
+		绽放的花
+	</van-button>
+</view>
+
+<view class="button">
+	<van-button type="info" size="large" plain bind:tap="toBeforeWinter">
+		寒假的前夕
+	</van-button>
+</view>
+
+<view class="button">
+	<van-button type="info" size="large" plain bind:tap="toWinter">
+		寒冬
+	</van-button>
+</view>
+
+<view class="button">
+	<van-button type="info" size="large" plain bind:tap="toAfterWinter">
+		冬天的结束
+	</van-button>
+</view>
+
+<view class="button">
+	<van-button type="info" size="large" plain bind:tap="toBotanical">
+		植物的相遇
+	</van-button>
+</view>
+
+<view class="button">
+	<van-button type="info" size="large" plain bind:tap="toElephantTrunk">
+		三月三, 象鼻山
+	</van-button>
+</view>
+
+<view class="button">
+	<van-button type="info" size="large" plain bind:tap="toBridesmaid">
+		静雯伴娘
+	</van-button>
+</view>

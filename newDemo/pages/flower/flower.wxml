@@ -1,0 +1,79 @@
+<!--pages/flower/flower.wxml-->
+
+<!-- 1 -->
+<view class="description">
+	<text space="emsp" selectable>这是我们第三次见面啦
+
+	我们吃了`能仁素食馆`，你说我们浪费了钱，看来宝贝的饮食体验不太好
+	</text>
+</view>
+
+<!-- 2 -->
+<view class="description">
+	<text selectable>
+		我们进一步了解彼此后去爬了山，此时的我有些虚弱
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{figure01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{figure02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{figure03}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{figure04}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{figure05}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper> 
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{scenery01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{scenery02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{scenery03}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper> 
+
+<!-- 3 -->
+<view class="description">
+	<text selectable>
+		买了一束宝贝喜欢的淡蓝色的花朵，我也觉得好看
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{flower}}" mode="aspectFill"></image>
+	</swiper-item>
+</swiper> 
+
+<!-- 4 -->
+<view class="description">
+	<text></text>
+</view>
+
+<van-collapse value="{{ activeNames }}"   bind:change="onChange" size="large">
+  	<van-collapse-item name="1">
+		<view slot="title" class="title">  你还记得那个街头吗?  </view>
+    	<view class="text">  
+			<text space="emsp">那个我们分别的街头，你上车前回头看我, 当时刚好有一辆车挡住了我们的视线,但你还是在出租车门口等待着我的视线.
+
+			你走后,我的视线变得模糊……</text>
+		</view>
+  	</van-collapse-item>
+</van-collapse>
+
+<view class="description"></view>
+<view class="description"></view>
+

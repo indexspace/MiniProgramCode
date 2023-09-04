@@ -1,0 +1,233 @@
+<!-- 1 -->
+<view class="description">
+	<text selectable>
+		由于我到站时间比酒店入住时间早很多（我当时还不知道可以提前入住，傻乎乎的），也比你到站时间早一些，所以我就在车站外面逛了一圈
+	</text>
+</view>
+
+<!-- 2 -->
+<view class="description">
+	<text selectable>
+		这是我的计划图
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{before01}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 3 -->
+<view class="description">
+	<text selectable>
+		卧铺车内的样子
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{before02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{before03}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{before04}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 4 -->
+<view class="description">
+	<text selectable>
+		到桂林站寄存行李啦
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{before05}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 5 -->
+<view class="description">
+	<text selectable>
+		存完钱 去吃饭咯
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{before06}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 5 -->
+<view class="description">
+	<text selectable>
+		理完35元的头发 去喝奶茶咯
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{before07}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 6 -->
+<view class="description">
+	<text selectable>
+		看吧几个小时挺快的, 很快就能见到宝贝啦
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{before08}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{before09}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 7 -->
+<view class="description">
+	<text selectable>
+		接到宝贝后我们回去歇了一会儿, 当时打车等了很久
+	</text>
+</view>
+
+<!-- 8 -->
+<view class="description">
+	<text selectable>
+		我们去爬山玩了
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{hill01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill03}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill12}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill13}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill14}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill15}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill16}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill17}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill18}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill19}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill20}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill21}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill22}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill23}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill24}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill25}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill26}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 9 -->
+<view class="description">
+	<text selectable>
+		猴哥, 无需多言
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{hill04}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill05}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill06}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill07}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill08}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill09}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill10}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hill11}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 10 -->
+<view class="description">
+	<text selectable>
+		我们去万象城随便逛逛, 有一说一, 那里面的衣服真的贵
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{shop01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{shop02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{shop03}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{shop04}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{shop05}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{shop06}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 11 -->
+<view class="description">
+	<text selectable>
+		好久不见呀, 这次玩的很尽兴呢
+	</text>
+</view>

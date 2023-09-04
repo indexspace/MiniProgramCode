@@ -1,0 +1,85 @@
+<!--pages/secondMeet/secondMeet.wxml-->
+
+<!-- 1 -->
+<view class="description">
+	<text selectable>
+		第二次见面，在雁山大学城
+	</text>
+</view>
+
+<!-- 2 -->
+<view class="description">
+	<text selectable>
+		你偷拍我的...... [大哭表情包]
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{bar03}}" mode="aspectFill"></image>
+	</swiper-item>
+</swiper>
+
+<!-- 3 -->
+<view class="description">
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{bar01}}" mode="aspectFill"></image>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{bar02}}" mode="aspectFill"></image>
+	</swiper-item>
+</swiper> 
+
+<!-- 4 -->
+<view class="description">
+	<text selectable>
+		这是我们相爱的证明哦
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{love01}}" mode="aspectFill"></image>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{love02}}" mode="aspectFill"></image>
+	</swiper-item>
+</swiper> 
+
+<!-- 5 -->
+<view class="description">
+	<text selectable>
+		师大门口的风景还是很不错的, 尤其是晚上
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{school01}}" mode="aspectFill"></image>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{school02}}" mode="aspectFill"></image>
+	</swiper-item>
+</swiper> 
+
+<!-- 6 -->
+<view class="description">
+	<text selectable>
+		我是不是看起来很萎靡啊，呜呜呜，都怪我年轻不懂事
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{group01}}" mode="aspectFill"></image>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{group03}}" mode="aspectFill"></image>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{group02}}" mode="aspectFill"></image>
+	</swiper-item>
+</swiper> 

@@ -1,0 +1,144 @@
+<!--pages/winter/winter.wxml-->
+
+<!-- 1 -->
+<van-collapse value="{{ activeNames }}"   bind:change="onChange">
+  	<van-collapse-item name="1">
+		<view slot="title" class="title">  烟花真美呀  </view>
+    	<view class="text">  你也是如此  </view>
+  	</van-collapse-item>
+</van-collapse>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{daily01}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper> 
+
+<!-- 2 -->
+<view class="description">
+	<text selectable>
+		这个蛋糕真好吃
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{food04}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{food05}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper> 
+
+<!-- 3 -->
+<view class="description">
+	<text selectable>
+		记得那时候还有疫情呢  我们的见面遥遥无期
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{daily02}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper> 
+
+<!-- 4 -->
+<view class="description">
+	<text selectable>
+		你们家包饺子，馅料挺丰富唉，想吃😋
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{food01}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper> 
+
+<!-- 5 -->
+<view class="description">
+	<text selectable>
+		我们的一些日常
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{daily03}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{daily04}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{daily05}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{daily06}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{daily07}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{food02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{food03}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper> 
+
+<!-- 6 -->
+<van-collapse value="{{ activeNames }}"   bind:change="onChange" size="large">
+  	<van-collapse-item name="2">
+		<view slot="title" class="title">  我们一起的游戏瞬间，游戏里我们半途而废</view>
+    	<view class="text">  但现实中我们会永远走下去  </view>
+  	</van-collapse-item>
+</van-collapse>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{game01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circugame>
+		<image src="{{game02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circugame>
+		<image src="{{game03}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circugame>
+		<image src="{{game04}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circugame>
+		<image src="{{game05}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circugame>
+		<image src="{{game06}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circugame>
+		<image src="{{game07}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circugame>
+		<image src="{{game08}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circugame>
+		<image src="{{game09}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circugame>
+		<image src="{{game10}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circugame>
+		<image src="{{game11}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circugame>
+		<image src="{{game12}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circugame>
+		<image src="{{game13}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circugame>
+		<image src="{{game14}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circugame>
+		<image src="{{game15}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper> 

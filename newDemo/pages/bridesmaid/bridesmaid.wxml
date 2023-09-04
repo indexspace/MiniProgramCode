@@ -1,0 +1,51 @@
+<!--pages/bridesmaid/bridesmaid.wxml-->
+
+<!-- 1 -->
+<view class="description">
+	<text selectable>
+		你去当伴娘的记录
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{img01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{img02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{img03}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{img04}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{img05}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{img06}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 2 -->
+<view class="description">
+	<text selectable>
+		这张照片绝了, 紧接着的表情包可以表达我的心情, 嘻嘻
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{img07}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{img08}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+
+<view class="description"></view>

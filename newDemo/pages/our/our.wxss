@@ -1,0 +1,19 @@
+/* pages/our/our.wxss */
+
+.beforeTime {
+	margin: 50rpx 50rpx -25rpx 50rpx;
+	color: #8b8b8b;
+	font-size: 110%;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.time {
+	margin: 50rpx;
+	padding: 50rpx;
+	text-align: center;
+	background-color: #c8dfff;
+	color: rgb(0, 0, 170);
+	font-size: 135%;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	
+}

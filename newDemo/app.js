@@ -14,6 +14,6 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    ThemeColor: "#69a0f9",
   }
 })

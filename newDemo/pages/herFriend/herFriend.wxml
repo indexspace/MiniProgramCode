@@ -1,0 +1,65 @@
+<!--pages/herFriend/herFriend.wxml-->
+
+<!-- 1 -->
+<view class="description">
+	<text selectable>
+		我们第一次见面前，你和你朋友会面
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{herFriend01}}" mode="aspectFill"></image>
+	</swiper-item>
+</swiper> 
+
+<!-- 2 -->
+<view class="description">
+	<text selectable>
+		这片花海真的很美
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{herFriend02}}" mode="aspectFill"></image>
+	</swiper-item>
+</swiper> 
+
+<!-- 3 -->
+<view class="description">
+	<text selectable>
+		摩天轮的视角不错耶
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{herFriend03}}" mode="aspectFill"></image>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{herFriend04}}" mode="aspectFill"></image>
+	</swiper-item>
+</swiper> 
+
+<!-- 4 -->
+<view class="description">
+	<text selectable>
+		没见面前就看到了宝贝的美丽的脸庞, 嘻嘻
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{herFriend05}}" mode="aspectFill"></image>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{herFriend06}}" mode="aspectFill"></image>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{herFriend07}}" mode="aspectFill"></image>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{herFriend08}}" mode="aspectFill"></image>
+	</swiper-item>
+</swiper> 

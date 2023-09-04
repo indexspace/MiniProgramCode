@@ -1,0 +1,117 @@
+<!--pages/botanicalGarden/botanicalGarden.wxml-->
+
+<!-- 1 -->
+<view class="description">
+	<text selectable>
+		我刚好去雁山参加蓝桥杯省赛，然后顺道和宝贝一起吃火锅, 
+		记得他们家的火锅是按照盘子的颜色来收费的
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{eat01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{eat02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{eat03}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 2 -->
+<view class="description">
+	<text selectable>
+		然后我们一起打车去植物园
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item>
+		<image src="{{me}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 3 -->
+<view class="description">
+	<text selectable>
+		植物园那个门口的亖老太婆真可恶
+	</text>
+</view>
+
+<view class="description">
+	<text selectable>
+		但是里面的环境还是很棒的,值得一看
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{scenery01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{scenery02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{scenery03}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{scenery04}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{scenery05}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{scenery06}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{scenery07}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{scenery08}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{scenery09}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{scenery10}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 4 -->
+<view class="description">
+	<text selectable>
+		许多俊男靓女在拍照📸，其实就包括我的崽崽
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{figure01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{figure02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{figure03}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{figure04}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{figure05}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{figure06}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>

@@ -1,0 +1,13 @@
+<!--pages/our/our.wxml-->
+
+<view class="beforeTime">
+	<text  selectable space="ensp">大家伙的Demo :
+	</text>
+</view>
+<view class="time">
+	<text space="ensp">第 {{days}} 天
+	</text>
+</view>
+
+
+

@@ -1,0 +1,94 @@
+<!--pages/scenery/scenery.wxml-->
+
+
+<!-- 1 -->
+<van-collapse value="{{ activeNames }}"   bind:change="onChange" size="large">
+  	<van-collapse-item name="1">
+		<view slot="title" class="title"> 湛江之旅 </view>
+    	<view class="text">  这些是宝贝去湛江旅游分享给我的美景哦  </view>
+  	</van-collapse-item>
+</van-collapse>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots 	circular>
+	<swiper-item circular>
+		<image src="{{zhanJiang01}}" mode="aspectFill"></image>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{zhanJiang02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{zhanJiang03}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{zhanJiang04}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{zhanJiang05}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{zhanJiang06}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{zhanJiang07}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper> 
+
+
+<!-- 2 -->
+<van-collapse value="{{ activeNames }}"   bind:change="onChange" size="large">
+  	<van-collapse-item name="2">
+		<view slot="title" class="title"> 山 </view>
+    	<view class="text"> 我们约会的时候拍的哦  </view>
+  	</van-collapse-item>
+</van-collapse>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots 	circular>
+	<swiper-item circular>
+		<image src="{{toursim01}}" mode="aspectFill"></image>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{toursim02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{toursim03}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper> 
+
+
+<!-- 3 -->
+<van-collapse value="{{ activeNames }}"   bind:change="onChange" size="large">
+  	<van-collapse-item name="3">
+		<view slot="title" class="title">  师大风光  </view>
+    	<view class="text">  wow 崽崽学校的风景唉 我理想的大学环境 </view>
+  	</van-collapse-item>
+</van-collapse>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots 	circular>
+	<swiper-item circular>
+		<image src="{{school01}}" mode="aspectFill"></image>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{school02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{school03}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{school04}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{school05}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{school06}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{school07}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{school08}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{school09}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper> 

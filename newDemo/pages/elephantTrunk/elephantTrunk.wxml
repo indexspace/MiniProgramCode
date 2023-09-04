@@ -1,0 +1,54 @@
+<!--pages/elephantTrunk/elephantTrunk.wxml-->
+<text>pages/elephantTrunk/elephantTrunk.wxml</text>
+
+<!-- 1 -->
+<view class="description">
+	<text selectable>
+		三月三，象鼻山
+		酒店位置有些偏，环境也比较一般
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{group01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{group02}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 2 -->
+<view class="description">
+	<text selectable>
+		哇哦，我们的手照，真的太绝了，宝贝的纤纤玉手
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{love}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 3 -->
+<view class="description">
+	<text selectable>
+		你把我骗去象鼻山，人真多，我可累了[大哭]
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{scenery01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{scenery02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{scenery03}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+
+<view class="description"></view>

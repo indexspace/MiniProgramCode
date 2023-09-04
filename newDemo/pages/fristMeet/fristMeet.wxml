@@ -1,0 +1,73 @@
+<!--pages/fristMeet/fristMeet.wxml-->
+
+<!-- 1 -->
+<van-collapse value="{{ activeNames }}"   bind:change="onChange" size="large">
+  	<van-collapse-item name="1">
+		<view slot="title" class="title">  去电影院的路上  </view>
+    	<view class="text">   
+			<text space="emsp">记得那天天气很热, 我提前一个小时到了, 然后在解放桥那边瞎逛, 找到了厕所的位置, 还找到了银行的位置
+			后来我每次路过那里都知道了厕所的位置, 那个银行的位置我还和你一起逛过呢
+			</text>
+		</view>
+  	</van-collapse-item>
+</van-collapse>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{fristMeet01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{fristMeet02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{fristMeet03}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper> 
+
+<!-- 2 -->
+<view class="description">
+	<text selectable>
+		后来我们如约去看电影, 我记得那次的电影票买错日期了
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{fristMeet04}}" mode="aspectFill"></image>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{fristMeet05}}" mode="aspectFill"></image>
+	</swiper-item>
+</swiper> 
+
+<!-- 3 -->
+<view class="description">
+	<text selectable>
+		再后来我们去逛了逛, 交换了一下初吻, 某人可嫌弃我的口水了呢
+	</text>
+</view>
+
+<!-- 4 -->
+<view class="description">
+	<text selectable>
+		天色已晚, 我们抓了娃娃, 我不太会抓娃娃, 所以我们意料之中的什么也没抓到, 太惨啦
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{fristMeet06}}" mode="aspectFill"></image>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{fristMeet07}}" mode="aspectFill"></image>
+	</swiper-item>
+</swiper> 
+
+<!-- 5 -->
+<view class="description">
+	<text space="emsp" selectable>最后, 我给你打车回去了, 
+	然后我自己用微信拼车, 由于好久没有用微信打车, 我忘记微信打车上的手机号码没更新了, 被司机问的一脸懵. 车的后座是一对去酒店的情侣, 我好尴尬, 好像被笑了, 可恶. 不过我现在知道了: 高德好像可以同时打两单唉.
+	
+	我们第一次美好的见面结束啦, 总的来说, 第一次见面，宝贝很白，很娇小，美中不足的是说话声音有点小. 宝贝约会后不久还给我转了200块钱腻, 嘿嘿
+	</text>
+</view>
