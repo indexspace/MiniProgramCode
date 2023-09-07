@@ -6,17 +6,5 @@
     "skylineRenderEnable": true
   },
   "libVersion": "2.32.3",
-  "condition": {
-    "miniprogram": {
-      "list": [
-        {
-          "name": "",
-          "pathName": "pages/our/our",
-          "query": "",
-          "launchMode": "default",
-          "scene": null
-        }
-      ]
-    }
-  }
+  "condition": {}
 }

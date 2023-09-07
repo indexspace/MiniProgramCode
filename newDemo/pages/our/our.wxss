@@ -15,5 +15,10 @@
 	color: rgb(0, 0, 170);
 	font-size: 135%;
 	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	
+}
+
+.rate {
+	width: 450rpx;
+	height: 100rpx;
+	margin: 50rpx;
 }

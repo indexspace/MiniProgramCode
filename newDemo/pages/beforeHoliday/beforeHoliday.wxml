@@ -1,0 +1,56 @@
+<!--pages/beforeHoliday/beforeHoliday.wxml-->
+<!-- 1 -->
+<view class="description">
+	<text selectable>
+		暑假前的那几天，我们玩的还算开心，就是我的大宝贝精神不太好，真是扫兴
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{date01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{date02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{date03}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 2 -->
+<view class="description">
+	<text selectable>
+		这张照片的氛围感不错哦
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{date04}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 3 -->
+<view class="description">
+	<text selectable>
+		相见时难别亦难 [大哭]
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{leave01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{leave02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{leave03}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{leave04}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<view class="description"></view>

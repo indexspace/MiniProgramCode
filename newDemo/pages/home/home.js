@@ -69,6 +69,26 @@ Page({
 		wx.navigateTo({
 			url: '/pages/bridesmaid/bridesmaid',
 		})
+	},
+	toDoctor() {
+		wx.navigateTo({
+			url: '/pages/doctor/doctor',
+		})
+	},
+	toChgDate() {
+		wx.navigateTo({
+			url: '/pages/chgMedDate/chgMedDate',
+		})
+	},
+	toPowerCut() {
+		wx.navigateTo({
+			url: '/pages/powerCut/powerCut',
+		})
+	},
+	toBeforeHoliday() {
+		wx.navigateTo({
+			url: '/pages/beforeHoliday/beforeHoliday',
+		})
 	}
 
   });

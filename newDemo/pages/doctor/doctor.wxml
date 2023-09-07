@@ -1,0 +1,146 @@
+<!--pages/doctor/doctor.wxml-->
+
+<!-- 1 -->
+<view class="description">
+	<text selectable>
+		我屁股出了点问题，校医室好像解决不了 [痛苦]
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{anomaly01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{anomaly02}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 2 -->
+<view class="description">
+	<text selectable>
+		我来到三甲医院做检查了 [大哭]
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{checkup01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{checkup02}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 3 -->
+<view class="description">
+	<text selectable>
+		我竟然到了住院手术的地步，好在有宝贝的照顾，嘻嘻 [比心]
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{hospital01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{hospital02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hospital03}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{hospital04}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{hospital05}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{hospital09}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 4 -->
+<view class="description">
+	<text selectable>
+		这些饭菜挺不错的
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{hospital06}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{hospital07}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 5 -->
+<view class="description">
+	<text selectable>
+		look, 这是谁呀 [贱笑]
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{hospital08}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 6 -->
+<view class="description">
+	<text selectable>
+		术后换药看到的风景，这边的包子铺味道很好
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{postoperation01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{postoperation03}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{postoperation02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{postoperation04}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+
+<!-- 7 -->
+<view class="description">
+	<text selectable>
+		刚换的药掉了,去校医务室瞅瞅 [惊吓]
+		看, 校医务室墙上的内容, [奸笑]
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{postoperation05}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 8 -->
+<view class="description">
+	<text selectable>
+		后来, 我可以自己在宿舍换药啦
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{postoperation06}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<view class="description">
+	<text selectable>
+		这一路有宝贝的照顾真是太幸运啦, 没有你, 我都不敢想,  我该怎么办 [抱抱]
+	</text>
+</view>

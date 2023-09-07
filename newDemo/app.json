@@ -13,6 +13,10 @@
 		"pages/botanicalGarden/botanicalGarden",
 		"pages/elephantTrunk/elephantTrunk",
 		"pages/bridesmaid/bridesmaid",
+		"pages/doctor/doctor",
+		"pages/chgMedDate/chgMedDate",
+		"pages/powerCut/powerCut",
+		"pages/beforeHoliday/beforeHoliday",
 		
 		"pages/our/our"
 	],

@@ -4,6 +4,8 @@ Page({
 	data: {
 		targetDate: '2022-10-05 00:00:00',
 		days: '',
+
+		value: 1,
 	},
 	
 	countTime() {
@@ -19,7 +21,19 @@ Page({
 		setInterval(this.countTime, 1000);
 	},
 
+	onChange(event) {
+		this.setData({
+		  value: event.detail,
+		});
+		//uni.setStorageSync('rate', value)
+		//log(uni.getStorageSync('rate'));
+		wx.setStorage('rate', value);
+		log(wx.getStorage('rate'));
+	},
+
 	onLoad: function (options) {
 		this.updateTime();
+		//this.data.value = uni.getStorageSync('rate');
+		//log(this.data.value);
 	},
 })

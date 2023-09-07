@@ -96,3 +96,27 @@
 		静雯伴娘
 	</van-button>
 </view>
+
+<view class="button">
+	<van-button type="info" size="large" plain bind:tap="toDoctor">
+		家属手术陪同
+	</van-button>
+</view>
+
+<view class="button">
+	<van-button type="info" size="large" plain bind:tap="toChgDate">
+		换药后的date
+	</van-button>
+</view>
+
+<view class="button">
+	<van-button type="info" size="large" plain bind:tap="toPowerCut">
+		停水停电的那个晚上
+	</van-button>
+</view>
+
+<view class="button">
+	<van-button type="info" size="large" plain bind:tap="toBeforeHoliday">
+		再次分别
+	</van-button>
+</view>

@@ -1,0 +1,26 @@
+<!--pages/powerCut/powerCut.wxml-->
+<text>pages/powerCut/powerCut.wxml</text>
+
+<view class="description">
+	<text selectable>
+		you guess a guess this is where ? [no care my Chinese English]
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" circular>
+	<swiper-item circular>
+		<image src="{{img01}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<view class="description">
+	<text selectable>
+		那天的早饭一般般，可能是吃粉吃腻了吧，突然感觉油条包子挺不错的
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" circular>
+	<swiper-item circular>
+		<image src="{{img02}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>

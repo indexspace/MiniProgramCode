@@ -1,0 +1,38 @@
+<!--pages/chgMedDate/chgMedDate.wxml-->
+<!-- 1 -->
+<view class="description">
+	<text selectable>
+		那天换完药我们一起出来逛逛，我当时挑了20块钱的鹌鹑蛋和小鸡腿，幸好宝贝放回去了，要不然我就成冤大头了，嘿嘿
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{img01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{img02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{img03}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{img04}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{img05}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 2 -->
+<view class="description">
+	<text selectable>
+		宝贝好嫩 我好喜欢 [大笑]
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{img06}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
