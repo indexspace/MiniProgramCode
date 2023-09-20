@@ -89,6 +89,21 @@ Page({
 		wx.navigateTo({
 			url: '/pages/beforeHoliday/beforeHoliday',
 		})
+	},
+	toSummer() {
+		wx.navigateTo({
+			url: '/pages/summer/summer',
+		})
+	},
+	toZhanJiang() {
+		wx.navigateTo({
+			url: '/pages/zhanJiang/zhanJiang',
+		})
+	},
+	toAfterSummer() {
+		wx.navigateTo({
+			url: '/pages/afterSummer/afterSummer',
+		})
 	}
 
   });

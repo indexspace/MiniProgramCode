@@ -1,0 +1,62 @@
+<!-- 1 -->
+<view class="description">
+	<text selectable>
+		我这个暑假厨艺可是有进步的哦  当然宝贝做的菜更棒
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{cuisine01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{cuisine02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{cuisine03}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{cuisine04}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{cuisine05}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{cuisine06}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 2 -->
+<view class="description">
+	<text selectable>
+		这是一些简单的日常图片
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{daily03}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{daily02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{daily01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{daily04}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{daily05}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{daily06}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 3 -->
+<view class="description">
+	<text selectable>
+		这个页面内容比较少吗, 暑假记录的比较少, 不少时间忙着整理素材呢, 嘻嘻
+	</text>
+</view>

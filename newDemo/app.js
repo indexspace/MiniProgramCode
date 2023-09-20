@@ -14,6 +14,7 @@ App({
     })
   },
   globalData: {
-    ThemeColor: "#69a0f9",
+	ThemeColor: "#69a0f9",
+	ImgUrlprefix: "https://czp-sky.oss-cn-hangzhou.aliyuncs.com/"
   }
 })

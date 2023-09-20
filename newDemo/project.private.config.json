@@ -3,8 +3,28 @@
   "projectname": "newDemo",
   "setting": {
     "compileHotReLoad": false,
-    "skylineRenderEnable": true
+    "skylineRenderEnable": true,
+    "urlCheck": false
   },
-  "libVersion": "2.32.3",
-  "condition": {}
+  "libVersion": "2.33.0",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "",
+          "pathName": "pages/acquaintance/acquaintance",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/our/our",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  }
 }

@@ -1,0 +1,93 @@
+<!-- 1 -->
+<view class="description">
+	<text selectable>
+		出发咯  公交  火车  出租  吃饭  开房  接你  一气呵成  好快啊[调皮]
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{before01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{before02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{before03}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{before04}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{before05}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{before06}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 2 -->
+<view class="description">
+	<text selectable>
+		晚上出去玩，宝贝穿裙子真好看
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item>
+		<image src="{{night01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{night02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{night03}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{night04}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 3 -->
+<view class="description">
+	<text selectable>
+		看，这个女孩，呆呆傻傻，我们去中医院[笑哭]
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item>
+		<image src="{{doctor01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{doctor02}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{doctor03}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{doctor04}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{doctor05}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{doctor06}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 4 -->
+<view class="description">
+	<text selectable>
+		分别前你不自信的说自己腿粗，看照片很细好吧
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item>
+		<image src="{{apart01}}" mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item>
+		<image src="{{apart02}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>

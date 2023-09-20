@@ -5,7 +5,7 @@ Page({
 		targetDate: '2022-10-05 00:00:00',
 		days: '',
 
-		value: 1,
+		value: 1
 	},
 	
 	countTime() {

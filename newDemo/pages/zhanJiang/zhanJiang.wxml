@@ -1,0 +1,72 @@
+<!-- 1 -->
+<view class="description">
+	<text selectable>
+		你去湛江游玩的一些画面  风景很不错 （大部分不在这个分区里）
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{index}} " mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 2 -->
+<view class="description">
+	<text selectable>
+		woc  宝贝的这些照片真的绝了  
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay indicator-dots circular>
+	<swiper-item circular>
+		<image src="{{beauty01}} " mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{beauty02}} " mode="aspectFill"/>
+	</swiper-item>
+	<swiper-item circular>
+		<image src="{{beauty04}} " mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 3 -->
+<view class="description">
+	<text selectable>
+		尤其是这张
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{beauty03}} " mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 4 -->
+<view class="description">
+	<text selectable>
+		狗狗耶
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{dog}} " mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<!-- 5 -->
+<view class="description">
+	<text selectable>
+		美丽的街道
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{street}} " mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
+<view class="description"></view>

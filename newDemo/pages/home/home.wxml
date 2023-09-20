@@ -120,3 +120,21 @@
 		再次分别
 	</van-button>
 </view>
+
+<view class="button">
+	<van-button type="info" size="large" plain bind:tap="toSummer">
+		分别, 为了不会分别的夏天
+	</van-button>
+</view>
+
+<view class="button">
+	<van-button type="info" size="large" plain bind:tap="toZhanJiang">
+		宝贝的湛江之旅, 羡慕捏
+	</van-button>
+</view>
+
+<view class="button">
+	<van-button type="info" size="large" plain bind:tap="toAfterSummer">
+		假期结束后的会面
+	</van-button>
+</view>

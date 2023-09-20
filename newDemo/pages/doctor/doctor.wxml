@@ -89,6 +89,19 @@
 	</swiper-item>
 </swiper>
 
+<!-- 5-2 -->
+<view class="description">
+	<text selectable>
+		这是什么奇怪的视角, 你在干啥呀😭
+	</text>
+</view>
+
+<swiper previous-margin="30rpx" autoplay circular>
+	<swiper-item circular>
+		<image src="{{hospital10}}" mode="aspectFill"/>
+	</swiper-item>
+</swiper>
+
 <!-- 6 -->
 <view class="description">
 	<text selectable>

@@ -17,7 +17,9 @@
 		"pages/chgMedDate/chgMedDate",
 		"pages/powerCut/powerCut",
 		"pages/beforeHoliday/beforeHoliday",
-		
+		"pages/summer/summer",
+		"pages/zhanJiang/zhanJiang",
+		"pages/afterSummer/afterSummer",
 		"pages/our/our"
 	],
 	"window": {
@@ -40,8 +42,7 @@
 			"pagePath": "pages/our/our",
 			"text": "我的",
 			"iconPath": "static/icon/other.png",
-			"selectedIconPath": "static/icon/otherSelected.png"
-		  
+			"selectedIconPath": "static/icon/otherSelected.png" 
 		}]
 	},
 	"renderer": "webview",
