@@ -12,13 +12,6 @@
       "list": [
         {
           "name": "",
-          "pathName": "pages/acquaintance/acquaintance",
-          "query": "",
-          "launchMode": "default",
-          "scene": null
-        },
-        {
-          "name": "",
           "pathName": "pages/our/our",
           "query": "",
           "launchMode": "default",

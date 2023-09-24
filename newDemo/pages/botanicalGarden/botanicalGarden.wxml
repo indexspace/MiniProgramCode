@@ -115,3 +115,5 @@
 		<image src="{{figure06}}" mode="aspectFill"/>
 	</swiper-item>
 </swiper>
+
+<view class="description"></view>

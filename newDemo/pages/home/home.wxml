@@ -25,45 +25,50 @@
 </swiper>
 -->
 
+<view class="bgText">
+	<text space="ensp">以下是我们在一起这段时光的部分记录哦
+	</text>
+</view>
+
 <view class="button">
 	<van-button type="info" size="large" plain bind:tap="toScenery">
-		风景
+		独特的风景
 	</van-button>
 </view>
 
 <view class="button">
 	<van-button type="info" size="large" plain bind:tap="toAcquaintance">
-		我们相识的那段时光
+		相识
 	</van-button>
 </view>
 
 <view class="button">
 	<van-button type="info" size="large" plain bind:tap="toHerFriend">
-		我们见面前你与你的好友会面
+		你与好友
 	</van-button>
 </view>
 
 <view class="button">
 	<van-button type="info" size="large" plain bind:tap="toFristMeet">
-		我们的第一次见面
+		第一次见面
 	</van-button>
 </view>
 
 <view class="button">
 	<van-button type="info" size="large" plain bind:tap="toSecondMeet">
-		大学城闲逛
+		大学城
 	</van-button>
 </view>
 
 <view class="button">
 	<van-button type="info" size="large" plain bind:tap="toFlower">
-		绽放的花
+		花是蓝色的
 	</van-button>
 </view>
 
 <view class="button">
 	<van-button type="info" size="large" plain bind:tap="toBeforeWinter">
-		寒假的前夕
+		寒假前夕
 	</van-button>
 </view>
 
@@ -75,7 +80,7 @@
 
 <view class="button">
 	<van-button type="info" size="large" plain bind:tap="toAfterWinter">
-		冬天的结束
+		春天来了
 	</van-button>
 </view>
 
@@ -93,13 +98,13 @@
 
 <view class="button">
 	<van-button type="info" size="large" plain bind:tap="toBridesmaid">
-		静雯伴娘
+		伴娘
 	</van-button>
 </view>
 
 <view class="button">
 	<van-button type="info" size="large" plain bind:tap="toDoctor">
-		家属手术陪同
+		手术陪同
 	</van-button>
 </view>
 
@@ -111,30 +116,38 @@
 
 <view class="button">
 	<van-button type="info" size="large" plain bind:tap="toPowerCut">
-		停水停电的那个晚上
+		停水电的夜晚
 	</van-button>
 </view>
 
 <view class="button">
 	<van-button type="info" size="large" plain bind:tap="toBeforeHoliday">
-		再次分别
+		暑假来临
 	</van-button>
 </view>
 
 <view class="button">
 	<van-button type="info" size="large" plain bind:tap="toSummer">
-		分别, 为了不会分别的夏天
+		这个夏天
 	</van-button>
 </view>
 
 <view class="button">
 	<van-button type="info" size="large" plain bind:tap="toZhanJiang">
-		宝贝的湛江之旅, 羡慕捏
+		你的湛江之旅
 	</van-button>
 </view>
 
 <view class="button">
 	<van-button type="info" size="large" plain bind:tap="toAfterSummer">
-		假期结束后的会面
+		再次相逢
 	</van-button>
 </view>
+
+<view class="bgText">
+	<text space="ensp">记录的不是很全面, 
+		一路走来, 少不了你的包容与陪伴
+	</text>
+</view>
+
+<view class="description"></view>

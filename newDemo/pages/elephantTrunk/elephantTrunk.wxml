@@ -1,6 +1,3 @@
-<!--pages/elephantTrunk/elephantTrunk.wxml-->
-<text>pages/elephantTrunk/elephantTrunk.wxml</text>
-
 <!-- 1 -->
 <view class="description">
 	<text selectable>

@@ -45,3 +45,9 @@ swiper swiper-item image {
 .space {
 	margin: 30rpx;
 }
+
+.bgText {
+	margin: 35rpx 25rpx 35rpx 25rpx;
+	padding: 25rpx;
+	background-color: #d3d3d3
+}

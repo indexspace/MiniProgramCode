@@ -1,5 +1,5 @@
 <view class="beforeTime">
-	<text  selectable space="ensp">大家伙的Demo :
+	<text  selectable space="ensp">我们在一起的 :
 	</text>
 </view>
 <view class="time">
@@ -7,7 +7,19 @@
 	</text>
 </view>
 
+<view class="bgText">
+	<text space="emsp" selectable>用电脑访问以下网址有惊喜哦,
+		速来,手慢无: 
+		
+		{{url}}
 
+		密码构成: {{password}}
+	</text>
+</view>
 
-
-
+<view class="bgText">
+	<text space="emsp">虽然开发难度不大,学习成本一般, 
+		但我们共同所耗费的时间精力并不低, 
+		感谢你一路陪伴!
+	</text>
+</view>

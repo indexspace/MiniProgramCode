@@ -83,3 +83,5 @@
 		<image src="{{group02}}" mode="aspectFill"></image>
 	</swiper-item>
 </swiper> 
+
+<view class="description"></view>

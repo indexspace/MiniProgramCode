@@ -63,3 +63,5 @@
 		<image src="{{herFriend08}}" mode="aspectFill"></image>
 	</swiper-item>
 </swiper> 
+
+<view class="description"></view>

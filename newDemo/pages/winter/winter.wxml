@@ -142,3 +142,5 @@
 		<image src="{{game15}}" mode="aspectFill"/>
 	</swiper-item>
 </swiper> 
+
+<view class="description"></view>
