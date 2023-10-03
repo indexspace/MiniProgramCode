@@ -4,10 +4,7 @@ Page({
 	data: {
 		targetDate: '2022-10-05 00:00:00',
 		days: '',
-		value: 1,
-
-		url: 'https://paste.liumingye.cn/13328',
-		password: '123456'
+		value: 1
 	},
 	
 	countTime() {

@@ -25,7 +25,7 @@
 	"window": {
 		"backgroundTextStyle": "light",
 		"navigationBarBackgroundColor": "#4791fa",
-		"navigationBarTitleText": "Weixin",
+		"navigationBarTitleText": "记录我们时光的小程序",
 		"navigationBarTextStyle": "black"
 	},
 	"tabBar": {

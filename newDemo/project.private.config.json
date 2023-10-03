@@ -7,17 +7,5 @@
     "urlCheck": false
   },
   "libVersion": "2.33.0",
-  "condition": {
-    "miniprogram": {
-      "list": [
-        {
-          "name": "",
-          "pathName": "pages/our/our",
-          "query": "",
-          "launchMode": "default",
-          "scene": null
-        }
-      ]
-    }
-  }
+  "condition": {}
 }

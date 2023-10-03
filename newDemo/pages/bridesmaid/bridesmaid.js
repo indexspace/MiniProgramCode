@@ -10,7 +10,7 @@ Page({
 		img05: app.globalData.ImgUrlprefix + "11-bridesmaid-230428/birdesmaid05.jpg",
 		img06: app.globalData.ImgUrlprefix + "11-bridesmaid-230428/birdesmaid06.jpg",
 		img07: app.globalData.ImgUrlprefix + "11-bridesmaid-230428/birdesmaid07.jpg",
-		img08: app.globalData.ImgUrlprefix + "11-bridesmaid-230428/birdesmaid09.jpg"
+		img08: app.globalData.ImgUrlprefix + "11-bridesmaid-230428/birdesmaid08.jpg"
 
 	}
 
